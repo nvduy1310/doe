@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FPT Shop</title>
+    <link rel="stylesheet" href="dienthoai.css">
+</head>
+<body>
+    <div class="container">
+        <header >
+           <center> <a href="index.html"><img src="LOGO.png" alt=""></a> </center>
+        </header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="dienthoai.html">Điện thoại</a></li>
+                    <li><a href="maytinh.html">Máy tính</a></li>
+                    <li><a href="phukien.html">Phụ kiện</a></li>
+                    <li><a href="tuyendung.html">Tuyển dụng</a></li>
+                <div class="search">
+                    <input type="search" placeholder="">
+                <button>Tìm kiếm</button>
+                    </div>
+                </ul>
+            </div> 
+        </nav>
+        <div id = "slide">
+            <a href=""><img src="IMG (2).jpg" alt=""></a>
+        </div>
+        <aside>
+            <h3>Mục lục chọn điện thoại</h3>
+            <div>
+                <label for="phoneList"><strong>Chọn thương hiệu</strong></label>
+                <div class="options">
+                    <li><input type="checkbox" value="all">Tất cả</li>
+                    <li><input type="checkbox" value="iphone">Iphone</li>
+                    <li><input type="checkbox" value="samsung">Samsung</li>
+                    <li><input type="checkbox" value="xiaomi">Oppo</li>
+                    <li><input type="checkbox" value="xiaomi">Xiaomi</li>
+                    <li><input type="checkbox" value="xiaomi">Readme</li>
+                    <li><input type="checkbox" value="xiaomi">Nokia</li>
+                    <li><input type="checkbox" value="xiaomi">Vivo</li>
+                    
+                </div>
+            </div>
+            <div class="price-options">
+                <label for="priceRange"><strong>Chọn mức giá</strong></label>
+                <select id="priceRange">
+                    <option value="all">Tất cả</option>
+                    <option value="under3">Dưới 3 triệu</option>
+                    <option value="3to5">3-5 triệu</option>
+                    
+                </select>
+            </div>
+        </aside>
+        <article>
+            <h3>Danh sach điện thoại<i></i></h3>
+            <div class="new_list">
+                <div class="new_item">
+                    <img src="sp.jpg" alt="">
+                    <div class="content">
+                        <h4>Oppo Reno5 8GB - 128GB</h4>
+                        <div class="price">
+                            <h2 class="current-price">8.690.000đ </h2>
+                            <strike class="original-price">9.500.000đ</strike>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                    
+                </div>
+                <div class="new_item">
+                    <img src="sp.jpg" alt="">
+                    <div class="content">
+                        <h4>Oppo Reno5 8GB - 128GB</h4>
+                        <div class="price">
+                            <h2 class="current-price">8.690.000đ </h2>
+                            <del class="original-price">9.500.000đ</del>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                </div>
+                <div class="new_item" id="fix">
+                    <img src="sp.jpg" alt="">
+                    <div class="content">
+                        <h4>Oppo Reno5 8GB - 128GB</h4>
+                        <div class="price">
+                            <h2 class="current-price">8.690.000đ </h2>
+                            <strike class="original-price">9.500.000đ</strike>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                </div>
+     
+                            <div id="content">
+                                <p></p>
+                                <button id="loadMoreBtn">Xem thêm</button>
+                            </div>
+                            <script>
+                                // Sử dụng hàm xử lý sự kiện khi nút "Xem thêm" được nhấp
+                                document.getElementById('loadMoreBtn').addEventListener('click', function () {
+                                    // Thực hiện chuyển hướng đến trang khác (ví dụ: trang 'more.html')
+                                    window.location.href = 'dienthoai2.html';
+                                });
+                            </script> 
+                            
+            
+        </article>
+        
+    </div>
+</body>
+</html>

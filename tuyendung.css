@@ -1,0 +1,41 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.body-tuyendung {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.tuyendung-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #e44d26
+}
+
+.tieude {
+    color: #e44d26;
+}
+
+.tuyendung-noidung {
+    list-style-type: none;
+    margin: 15px;
+}
+
+.tuyendung-noidung li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.tuyendung-noidung li span {
+    color: #e44d26;
+    font-weight: bold;
+}
+
+

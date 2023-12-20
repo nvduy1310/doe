@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FPT Shop</title>
+    <link rel="stylesheet" href="dienthoai.css">
+</head>
+<body>
+    <div class="container">
+        <header >
+           <center> <a href="index.html"><img src="LOGO.png" alt=""></a> </center>
+        </header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="dienthoai.html">Điện thoại</a></li>
+                    <li><a href="maytinh.html">Máy tính</a></li>
+                    <li><a href="phukien.html">Phụ kiện</a></li>
+                    <li><a href="tuyendung.html">Tuyển dụng</a></li>
+                <div class="search">
+                    <input type="search" placeholder="">
+                <button>Tìm kiếm</button>
+                    </div>
+                </ul>
+            </div> 
+        </nav>
+        <div id = "slide">
+            <a href=""><img src="IMG (2).jpg" alt=""></a>
+        </div>
+        <aside>
+            <h3>Mục lục chọn máy tính</h3>
+            <div>
+                <label for="phoneList"><strong>Chọn thương hiệu</strong></label>
+                <div class="options">
+                    <li><input type="checkbox" value="all">Tất cả</li>
+                    <li><input type="checkbox" value="iphone">Apple</li>
+                    <li><input type="checkbox" value="samsung">Asus</li>
+                    <li><input type="checkbox" value="xiaomi">Acer</li>
+                    <li><input type="checkbox" value="xiaomi">Dell</li>
+                    <li><input type="checkbox" value="xiaomi">HP</li>
+                    <li><input type="checkbox" value="xiaomi">Gigabyte</li>
+                    <li><input type="checkbox" value="xiaomi">Lenovo</li>
+                    
+                </div>
+            </div>
+            <div class="price-options">
+                <label for="priceRange"><strong>Chọn mức giá</strong></label>
+                <select id="priceRange">
+                    <option value="all">Tất cả</option>
+                    <option value="under3">Dưới 10 triệu</option>
+                    <option value="10to15">Từ 10-15 triệu</option>
+                    <option value="15to20">Từ 15-20 triệu</option>
+                    <option value="up20">Trên 20 triệu</option>
+                    
+                </select>
+            </div>
+        </aside>
+        <article>
+            <h3>Danh sach máy tính<i></i></h3>
+            <div class="new_list">
+                <div class="new_item">
+                    <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                    <div class="content">
+                        <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                        <div class="price">
+                            <h2 class="current-price">19.790.000₫</h2>
+                            <strike class="original-price">22.990.000đ</strike>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+
+                </div>
+                <div class="new_item">
+                    <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                    <div class="content">
+                        <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                        <div class="price">
+                            <h2 class="current-price">19.790.000đ </h2>
+                            <del class="original-price">22.990.000đ</del>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                </div>
+                <div class="new_item" id="fix">
+                    <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                    <div class="content">
+                        <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                        <div class="price">
+                            <h2 class="current-price">19.790.000đ </h2>
+                            <strike class="original-price">22.990.000đ</strike>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                </div>
+                <div class="new_list1">
+                    <div class="new_item">
+                        <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                        <div class="content">
+                            <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                            <div class="price">
+                                <h2 class="current-price">19.790.000đ </h2>
+                                <strike class="original-price">22.990.000đ</strike>
+                            </div >
+                            <div class="dathang">
+                            <button onclick="dathang()">Đặt hàng</button></div>
+                        </div>
+                        
+                    </div>
+                    <div class="new_item">
+                        <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                        <div class="content">
+                            <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                            <div class="price">
+                                <h2 class="current-price">19.790.000đ</h2>
+                                <del class="original-price">22.990.000đ</del>
+                            </div >
+                            <div class="dathang">
+                            <button onclick="dathang()">Đặt hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="new_item" id="fix">
+                        <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                        <div class="content">
+                            <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                            <div class="price">
+                                <h2 class="current-price">19.790.000đ</h2>
+                                <strike class="original-price">22.990.000đ</strike>
+                            </div >
+                            <div class="dathang">
+                            <button onclick="dathang()">Đặt hàng</button></div>
+                        </div>
+                    </div>
+                    <div class="new_list1">
+                        <div class="new_item">
+                            <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                            <div class="content">
+                                <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                                <div class="price">
+                                    <h2 class="current-price">19.790.000đ</h2>
+                                    <strike class="original-price">22.990.000đ</strike>
+                                </div >
+                                <div class="dathang">
+                                <button onclick="dathang()">Đặt hàng</button></div>
+                            </div>
+                            
+                        </div>
+                        <div class="new_item">
+                            <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                            <div class="content">
+                                <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                                <div class="price">
+                                    <h2 class="current-price">19.790.000đ</h2>
+                                    <del class="original-price">22.990.000đ</del>
+                                </div >
+                                <div class="dathang">
+                                <button onclick="dathang()">Đặt hàng</button></div>
+                            </div>
+                        </div>
+                        <div class="new_item" id="fix">
+                            <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                            <div class="content">
+                                <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                                <div class="price">
+                                    <h2 class="current-price">19.790.000đ</h2>
+                                    <strike class="original-price">22.990.000đ</strike>
+                                </div >
+                                <div class="dathang">
+                                <button onclick="dathang()">Đặt hàng</button></div>
+                            </div>
+                        </div>  
+                        <div class="new_list1">
+                            <div class="new_item">
+                                <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                                <div class="content">
+                                    <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                                    <div class="price">
+                                        <h2 class="current-price">19.790.000đ</h2>
+                                        <strike class="original-price">22.990.000đ</strike>
+                                    </div >
+                                    <div class="dathang">
+                                    <button onclick="dathang()">Đặt hàng</button></div>
+                                </div>
+                                
+                            </div>
+                            <div class="new_item">
+                                <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                                <div class="content">
+                                    <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                                    <div class="price">
+                                        <h2 class="current-price">19.790.000đ</h2>
+                                        <del class="original-price">22.990.000đ</del>
+                                    </div >
+                                    <div class="dathang">
+                                    <button onclick="dathang()">Đặt hàng</button></div>
+                                </div>
+                            </div>
+                            <div class="new_item" id="fix">
+                                <img src="Macbook_Pro_2020_M1_gold-l5.png" alt="" style="max-width: 90%;">
+                                <div class="content">
+                                    <h4>MacBook Air 13 inch M1 2020 8CPU 7GPU 8GB/256GB</h4>
+                                    <div class="price">
+                                        <h2 class="current-price">19.790.000đ</h2>
+                                        <strike class="original-price">22.990.000đ</strike>
+                                    </div >
+                                    <div class="dathang">
+                                    <button onclick="dathang()">Đặt hàng</button></div>
+                                </div>
+                            </div> 
+                            <div id="content">
+                                <p></p>
+                                <button id="loadMoreBtn">Xem thêm</button>
+                            </div>
+                            <script>
+                                // Sử dụng hàm xử lý sự kiện khi nút "Xem thêm" được nhấp
+                                document.getElementById('loadMoreBtn').addEventListener('click', function () {
+                                    // Thực hiện chuyển hướng đến trang khác (ví dụ: trang 'more.html')
+                                    window.location.href = 'maytinh1.html';
+                                });
+                            </script> 
+                            
+            
+        </article>
+        
+    </div>
+</body>
+</html>

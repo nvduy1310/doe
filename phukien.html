@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FPT Shop</title>
+    <link rel="stylesheet" href="dienthoai.css">
+</head>
+<body>
+    <div class="container">
+        <header >
+           <center> <a href="index.html"><img src="LOGO.png" alt=""></a> </center>
+        </header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="dienthoai.html">Điện thoại</a></li>
+                    <li><a href="maytinh.html">Máy tính</a></li>
+                    <li><a href="#">Phụ kiện</a></li>
+                    <li><a href="tuyendung.html">Tuyển dụng</a></li>
+                <div class="search">
+                    <input type="search" placeholder="">
+                <button>Tìm kiếm</button>
+                    </div>
+                </ul>
+            </div> 
+        </nav>
+        <div id = "slide">
+            <a href=""><img src="IMG (2).jpg" alt=""></a>
+        </div>
+        <aside>
+            <h3>Mục lục chọn điện thoại</h3>
+            <div>
+                <label for="phoneList"><strong>Chọn thương hiệu</strong></label>
+                <div class="options">
+                    <li><input type="checkbox" value="all">Tất cả</li>
+                    <li><input type="checkbox" value="iphone">Apple</li>
+                    <li><input type="checkbox" value="samsung">Samsung</li>
+                    <li><input type="checkbox" value="xiaomi">Oppo</li>
+                    <li><input type="checkbox" value="xiaomi">Sony</li>
+                    <li><input type="checkbox" value="xiaomi">JBL</li>
+                    <li><input type="checkbox" value="xiaomi">Xiaomi</li>
+                
+                    
+                </div>
+            </div>
+            <div class="price-options">
+                <label for="priceRange"><strong>Chọn mức giá</strong></label>
+                <select id="priceRange">
+                    <option value="all">Tất cả</option>
+                    <option value="under1">Dưới 1 triệu</option>
+                    <option value="1to2">1 - 2 triệu</option>
+                    <option value="up2">Trên 2 triệu</option>
+                    
+                </select>
+            </div>
+        </aside>
+        <article>
+            <h3>Phụ kiện<i></i></h3>
+            <div class="new_list">
+                <div class="new_item">
+                    <img src="AirPods-Pro2-A.jpg" alt="" style="max-width: 100%;">
+                    <div class="content">
+                        <h4>Apple AirPods Pro 2022</h4>
+                        <div class="price">
+                            <h2 class="current-price">5.490.000đ </h2>
+                            <strike class="original-price">6.190.000đ</strike>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                    
+                </div>
+                <div class="new_item">
+                    <img src="loa-bluetooth-marshall-kilburn-steel-limited-edition.jpg" alt="" style="max-width: 100%;">
+                    <div class="content">
+                        <h4>Loa Marshall KillBurn 2</h4>
+                        <div class="price">
+                            <h2 class="current-price">5.800.000đ </h2>
+                            <del class="original-price">8.490.000đ</del>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                </div>
+                <div class="new_item" id="fix">
+                    <img src="pic-no001-e606145a-5bbd-43a4-9bf9-1256499726ed.webp" alt="" style="max-width: 93.4%;">
+                    <div class="content">
+                        <h4>Sạc dự phòng Anker PowerCore A1263</h4>
+                        <div class="price">
+                            <h2 class="current-price">1.350.000đ </h2>
+                            <strike class="original-price">1.500.000đ</strike>
+                        </div >
+                        <div class="dathang">
+                        <button onclick="dathang()">Đặt hàng</button></div>
+                    </div>
+                </div>
+                <div class="new_list1">
+                    <div class="new_item">
+                        <img src="logitech-m330-silent-plus.png" alt="" style="max-width: 100%;">
+                        <div class="content">
+                            <h4>Chuột không dây Logitech M650 for Business</h4>
+                            <div class="price">
+                                <h2 class="current-price">629.000đ </h2>
+                                <strike class="original-price">850.000đ</strike>
+                            </div >
+                            <div class="dathang">
+                            <button onclick="dathang()">Đặt hàng</button></div>
+                        </div>
+                        
+                    </div>
+                    <div class="new_item">
+                        <img src="bd36364e9f29e910918b805ba7804dff.jpg" alt="" style="max-width: 92.5%;">
+                        <div class="content">
+                            <h4>Bàn phím cơ K550 Leaven</h4>
+                            <div class="price">
+                                <h2 class="current-price">455.000đ </h2>
+                                <del class="original-price">500.000đ</del>
+                            </div >
+                            <div class="dathang">
+                            <button onclick="dathang()">Đặt hàng</button></div>
+                        </div>
+                    </div>
+                     
+                            <div id="content">
+                                <button id="loadMoreBtn">Xem thêm</button>
+                            </div>
+                            <script>
+                                // Sử dụng hàm xử lý sự kiện khi nút "Xem thêm" được nhấp
+                                document.getElementById('loadMoreBtn').addEventListener('click', function () {
+                                    // Thực hiện chuyển hướng đến trang khác (ví dụ: trang 'more.html')
+                                    window.location.href = 'phukien1.html';
+                                });
+                            </script> 
+                            
+            
+        </article>
+        
+    </div>
+          
+</body>
+</html>
